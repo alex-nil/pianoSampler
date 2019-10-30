@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <audio id="a1">
+        <source src="./piano/synth_a_note.wav" type="audio/wav"">
+       </audio>
+       <audio id="b1">
+        <source src="./piano/synth_b_note.wav" type="audio/wav"">
+       </audio>
+       <audio id="c1">
+        <source src="./piano/synth_c_note.wav" type="audio/wav"">
+       </audio>
+       <audio id="d1">
+        <source src="./piano/synth_d_note.wav" type="audio/wav"">
+       </audio>
+       <audio id="e1">
+        <source src="./piano/synth_e_note.wav" type="audio/wav"">
+       </audio>
+       <audio id="f1">
+        <source src="./piano/synth_f_note.wav" type="audio/wav"">
+       </audio>
+       <audio id="g1">
+        <source src="./piano/synth_g_note.wav" type="audio/wav"">
+       </audio>
+<div id="piano">
+    <div class="key" id="a1" onclick="playSound(this)"></div>
+    <div class="key" id="b1" onclick="playSound(this)"></div>
+    <div class="key" id="c1" onclick="playSound(this)"></div>
+    <div class="key" id="d1" onclick="playSound(this)"></div>
+    <div class="key" id="e1" onclick="playSound(this)"></div>
+    <div class="key" id="f1" onclick="playSound(this)"></div>
+    <div class="key" id="g1" onclick="playSound(this)"></div>
+</div>
+</body>
+<script src="script.js"></script>
+</html>

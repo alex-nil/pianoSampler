@@ -1,0 +1,15 @@
+.key {
+    width: 100px;
+    height: 150px;
+    background-color: white;
+    margin: 20px;
+    display: inline-block;
+}
+body {
+    background-color: black;
+    text-align: center;
+    margin: 0 auto;
+}
+#piano {
+
+}
